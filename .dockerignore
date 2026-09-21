@@ -1,0 +1,15 @@
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+.git/
+.gitignore
+Dockerfile
+.dockerignore
+README.md
+*.md
+restart_frontend.bat
+start_frontend.bat
+.oxlintrc.json
+.idea/
+.vscode/
