@@ -1,0 +1,16 @@
+﻿{
+  "rewrites": [
+    {
+      "source": "/api/v1/aprendiz_mongodb",
+      "destination": "https://aprendiz-mongodb-production.up.railway.app/api/v1/aprendiz_mongodb"
+    },
+    {
+      "source": "/api/v1/aprendiz_mongodb/:path*",
+      "destination": "https://aprendiz-mongodb-production.up.railway.app/api/v1/aprendiz_mongodb/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
