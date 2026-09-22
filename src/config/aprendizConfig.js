@@ -1,4 +1,5 @@
-export const BASE = '/api/v1/aprendiz_mongodb'
+export const RAILWAY = 'https://aprendiz-mongodb-production.up.railway.app'
+export const BASE = `${RAILWAY}/api/v1/aprendiz_mongodb`
 
 export const FIELDS = [
   'numero_identificacion',
