@@ -1,16 +1,6 @@
-﻿[build]
+[build]
   command = "npm run build"
   publish = "dist"
-
-[[redirects]]
-  from = "/api/v1/aprendiz_mongodb"
-  to = "https://aprendiz-mongodb-production.up.railway.app/api/v1/aprendiz_mongodb"
-  status = 200
-
-[[redirects]]
-  from = "/api/v1/aprendiz_mongodb/*"
-  to = "https://aprendiz-mongodb-production.up.railway.app/api/v1/aprendiz_mongodb/:splat"
-  status = 200
 
 [[redirects]]
   from = "/*"
